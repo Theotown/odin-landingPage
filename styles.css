@@ -9,7 +9,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1rem 2rem;
-    background-color: #fff4e6;
+    background-color: #ecd8bf;
     align-items: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -32,4 +32,56 @@ a:hover {
 .nav-links a {
     margin-left: 1.5rem;
     font-weight: 500px;
+    transition-duration: 0.4s;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2rem 3rem;
+    background-color: #fefae0;
+}
+
+.hero-text {
+    flex: 1;
+    padding-right: 20rem;
+    margin-left: 50px;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    color: #625f5f;
+    font-size: 1.5rem;
+}
+
+.hero-text button {
+    font-size: 20px;
+    margin-bottom: 12px;
+    padding: 12px;
+    border: 2px solid #fefae0;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    font-weight: bold;
+}
+
+button:hover {
+    color: #e2b57b;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.image-credit {
+    font-size: 0.75rem;
+    margin-top: 0.50rem;
+    color: #888;
 }
