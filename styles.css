@@ -1,0 +1,35 @@
+body {
+    font-family: Inter, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffdfa;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #fff4e6;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #3e2f1c;
+}
+
+a:hover {
+    font-size: 24px;
+    color: #ce9245;
+}
+
+.nav-links a {
+    margin-left: 1.5rem;
+    font-weight: 500px;
+}
