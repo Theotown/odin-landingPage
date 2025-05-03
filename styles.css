@@ -61,12 +61,13 @@ a:hover {
 
 .hero-text button {
     font-size: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     padding: 12px;
-    border: 2px solid #fefae0;
+    border: none;
     border-radius: 12px;
     transition-duration: 0.4s;
     font-weight: bold;
+    cursor: pointer;
 }
 
 button:hover {
@@ -115,4 +116,53 @@ h1, h2, h3 {
 
 .card p {
     margin-top: 0.5rem;
+}
+
+.quote {
+    background-color: #f9f9f9;
+    padding: 3rem 2rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.quote cite {
+    display: block;
+    margin-top: 1rem;
+    font-style: normal;
+    color: #555;
+}
+
+.cta {
+    background-color: #ffedd5;
+    padding: 3rem 2rem;
+}
+
+.cta-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cta-box button {
+    margin-top: 1rem;
+    background-color: #3e2f1c;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cta-box button:hover {
+    background-color: #5a422c;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem 2rem;
+    background-color: #e7d7c9;
+    font-size: 0.9rem;
+    color: #333;
 }
