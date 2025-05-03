@@ -85,3 +85,34 @@ button:hover {
     margin-top: 0.50rem;
     color: #888;
 }
+
+h1, h2, h3 {
+    font-family: Playfair Display, serif;
+    color: #3e2f1c;
+}
+
+.info {
+    padding: 3rem 2rem;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.info h2 {
+    margin-top: -1rem;
+}
+
+.info-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.card img {
+    width: 100%; 
+  border-radius: 0.5rem;
+}
+
+.card p {
+    margin-top: 0.5rem;
+}
